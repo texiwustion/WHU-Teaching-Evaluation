@@ -1,6 +1,6 @@
 # 界面
 
-![[D:/01-Work/NOTE/栅栏笔记/src/Pasted image 20230609222245.png]]
+![image](image.png)
 
 # 使用
 
