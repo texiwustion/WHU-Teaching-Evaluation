@@ -6,6 +6,7 @@
 // @author       Texiwustion
 // @match        https://ugsqs.whu.edu.cn/*
 // @grant        none
+// @license      MIT
 // ==/UserScript==
 
 (function() {
