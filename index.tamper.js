@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         武汉大学学生自动评教
 // @namespace    http://tampermonkey.net/
-// @version      0.22
+// @version      0.23
 // @description  Add a floating button to execute custom JS on ugsqs.whu.edu.cn
 // @author       Texiwustion
 // @match        https://ugsqs.whu.edu.cn/*
@@ -11,14 +11,15 @@
 
 (function () {
   'use strict';
+  createFloatingButton(props);
+})();
+
+function createFloatingButton() {
   var props = {
     moved: false,
     checkCursor: true
   };
-  createFloatingButton(props);
-})();
 
-function createFloatingButton(props) {
   const button = _createButton();
   document.body.appendChild(button);
   // Hover to changeCursor
